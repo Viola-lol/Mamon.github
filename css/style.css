@@ -184,3 +184,75 @@ body {
     color: #B2B2B2;
     font-size: 24px;
 }
+@media(max-width: 1170px) {
+    .clients {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .title-main {
+        font-size: 45px;
+    }
+    .text-main {
+        font-size: 28px;
+    }
+    .button {
+        font-size: 21px;
+    }
+}
+@media(max-width: 1000px) {
+    .team {
+        grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+    }
+}
+@media(max-width: 800px) {
+    .title-main {
+        font-size: 40px;
+    }
+    .text-main {
+        font-size: 24px;
+    }
+    .services {
+        grid-template: none;
+    }
+}
+@media(max-width: 650px) {
+    .header {
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .team {
+        grid-template: none;
+    }
+    .team-item {
+        flex-direction: column;
+    }
+    .team-item img {
+        margin-right: 0;
+    }
+    .clients {
+        grid-template: none;
+    }
+    .nav {
+        padding: 0;
+    }
+    .nav>li {
+        margin-left: 29;
+    }
+}
+@media(max-width: 430px) {
+    .services h3 {
+        font-size: 1.17em;
+    }
+    .nav_btn {
+        font-size: 11px;
+    }
+    .title-main {
+        font-size: 24px;
+    }
+    .text-main {
+        font-size: 17px;
+    }
+    .box-footer {
+        flex-direction: column;
+    }
+}
+    
